@@ -32,7 +32,17 @@ uv sync
 
 > `.venv/` 폴더가 자동으로 생성되고 `pyproject.toml`의 의존성이 설치됩니다.
 
-### 3. Node.js 패키지 설치
+### 3. Node.js 설치 (없는 경우)
+
+https://nodejs.org 에서 **LTS 버전** 다운로드 후 설치.
+
+설치 확인:
+```bash
+node -v   # v18 이상이면 OK
+npm -v
+```
+
+### 4. Node.js 패키지 설치
 
 ```bash
 npm install --prefix annotation/frontend
