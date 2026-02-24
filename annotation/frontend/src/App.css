@@ -672,7 +672,7 @@ kbd {
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s;
   letter-spacing: 0.04em;
-  text-align: left;
+  text-align: center;
 }
 
 .predict-settings-btn:hover {
